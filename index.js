@@ -1,6 +1,9 @@
+#!/usr/bin/env node
 const {writeFileSync} = require("fs");
 const generateMarkdown = require("./utils/generateMD");
-const { prompt } = require("inquirer");
+const { prompt,registerPrompt } = require("inquirer");
+registerPrompt('filePath', require('inquirer-select-directory'));
+
 const imageArr = [];
 
 const questions = [
@@ -69,6 +72,12 @@ const questions = [
     name: "screenshot",
     message: "Do you want to add one or more screenshots? Please note that the image files must be located in /assets/images",
   },
+  {
+    type: 'filePath',
+    name: 'from',
+    message: 'Where you like to output the readme.md file?',
+    basePath: '../'
+  }
 ];
 
 async function app() {
@@ -96,7 +105,7 @@ async function app() {
 }
 
 function writeFile(data) {
-  writeFileSync("README.md", generateMarkdown(data, imageArr));
+  writeFileSync(`${data.from}/README.md`, generateMarkdown(data, imageArr));
   console.log("Success!");
 }
 app();
