@@ -44,7 +44,7 @@
 
 
 ## Known Issues
-None 
+Currently there is no way to update the path to the screenshots. Currently for the readme to show the screenshots correctly, they must be located in the assets/images directory. 
 
 ## How To Contribute 🤝
   
