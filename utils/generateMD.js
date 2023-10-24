@@ -26,7 +26,8 @@ function renderScreenshots(images) {
   let html = "";
   if (images.length > 0) {
     images.forEach((img, i) => {
-      html += `![screenshot-${i}](assets/images/${img})`;
+      html += `![screenshot-${i}](assets/images/${img})\n`;
+  
     });
     return html;
   } else {

@@ -49,7 +49,9 @@ Not deployed - CLI only.
 ### Screenshots
 
 ![screenshot-0](assets/images/ss.png)
+
 ![screenshot-1](assets/images/ss2.png)
+
 ![screenshot-2](assets/images/ss3.png)
 
 ## Known Issues
