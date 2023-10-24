@@ -3,7 +3,7 @@
   
   ## Description  ✏️
   
-  This code will prompt the user on the usual readme sections and allow them to generate a readme.md for their project with emojis, TOC and proper formatting. Mulitple screenshots are supported. Screenshots must be located in the /assets/images folder of the project while assu ming the README.md will be output or manually moved to the root of the project directory. Output for the README.md is chosen using inquirer-select-directory and can be placed anywhere on the user's machine. 
+  This code will prompt the user on the usual readme sections and allow them to generate a readme.md for their project with emojis, TOC and proper formatting. Mulitple screenshots are supported. Screenshots must be located in the /assets/images folder of the project while assuming the README.md will be output or manually moved to the root of the readme's project directory. Output for the README.md is chosen using inquirer-select-directory and can be placed anywhere on the user's machine. 
 
   ## Table of Contents 📖
   
