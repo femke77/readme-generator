@@ -67,7 +67,7 @@ const questions = [
   {
     type: "confirm",
     name: "screenshot",
-    message: "Do you want to add one or more screenshots?",
+    message: "Do you want to add one or more screenshots? Please note that the image files must be located in /assets/images",
   },
 ];
 
