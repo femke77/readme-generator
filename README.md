@@ -74,7 +74,12 @@ No tests at this time.
 
 ## Credits
 
-None
+This project uses two npm packages:
+
+[inquirer](https://www.npmjs.com/package/inquirer)
+
+[inquirer-select-directory](https://classic.yarnpkg.com/en/package/inquirer-select-directory)
+
 
 ## Questions ❓
 
