@@ -3,7 +3,7 @@
   
   ## Description  ✏️
   
-  This code will prompt the user on the usual readme sections and allow them to generator a readme with teh answers to the propts.
+  This code will prompt the user on the usual readme sections and allow them to generate a readme.md for their project with emojis, TOC and proper formatting. Mulitple screenshots are supported. Screenshots must be located in the /assets/images folder of the project. 
   
   ## Table of Contents 📖
   
