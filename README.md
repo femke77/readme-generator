@@ -1,4 +1,4 @@
-# README.md Generator 👨‍💻
+# README.md Generator 
 
 ## Description ✏️
 
@@ -12,15 +12,15 @@ You can update this generator as you like to make it work better for you!
 
 - [Installation](#installation-🛠️)
 
-- [Usage](#usage-📝)
+- [Usage](#usage-👨‍💻)
 
-* [Issues](#known-issues)
+* [Issues](#known-issues-🤔)
 
 * [Contributing](#how-to-contribute-🤝)
 
 * [Tests](#tests-🧪)
 
-* [Credits](#credits)
+* [Credits](#credits-🏆)
 
 * [Questions](#questions-❓)
 
@@ -32,7 +32,7 @@ To install necessary dependencies, run the following command:
 npm i
 ```
 
-## Usage 📝
+## Usage 👨‍💻
 
 After you clone the repo and install using "npm i" you will be able to run this CLI using the command
 
@@ -54,7 +54,7 @@ Not deployed - CLI only.
 
 ![screenshot-2](assets/images/ss3.png)
 
-## Known Issues
+## Known Issues 🤔
 
 Currently there is no way to update the path to the screenshots. Currently for the readme to show the screenshots correctly, they must be located in the assets/images directory.
 
@@ -72,7 +72,7 @@ To run tests, run the following command:
 No tests at this time.
 ```
 
-## Credits
+## Credits 🏆
 
 This project uses two npm packages:
 
