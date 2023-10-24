@@ -35,7 +35,7 @@ function renderScreenshots(images) {
 }
 
 function generateMarkdown(data, imageArr) {
-  return `# ${data.title} 👨‍💻
+  return `# ${data.title} 
   ${renderLicenseBadge(data.license)}
   
   ## Description  ✏️
@@ -46,17 +46,17 @@ function generateMarkdown(data, imageArr) {
   
   - [Installation](#installation-🛠️)
   
-  - [Usage](#usage-📝)
+  - [Usage](#usage-👨‍💻)
 
   ${renderLicenseLink(data.license)}
 
-  - [Issues](#known-issues)
+  - [Issues](#known-issues-🤔)
 
   - [Contributing](#how-to-contribute-🤝)
   
   - [Tests](#tests-🧪) 
 
-  - [Credits](#credits)
+  - [Credits](#credits-🏆)
   
   - [Questions](#questions-❓)
   
@@ -68,7 +68,7 @@ function generateMarkdown(data, imageArr) {
   ${data.installation}
   \`\`\`
   
-  ## Usage 📝
+  ## Usage 👨‍💻
   
   ${data.usage}
 
@@ -80,7 +80,7 @@ ${renderScreenshots(imageArr)}
 
 ${renderLicenseSection(data.license)}
 
-## Known Issues
+## Known Issues 🤔
 ${data.issues}
 
 ## How To Contribute 🤝
@@ -96,7 +96,7 @@ To run tests, run the following command:
   \`\`\`
 
 
-## Credits
+## Credits 🏆
 ${data.credits}
 
  ## Questions ❓
