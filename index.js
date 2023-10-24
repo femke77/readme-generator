@@ -101,7 +101,6 @@ async function app() {
     } while (answer.cont);
   }
   writeFile(answers);
-  console.log(imageArr);
 }
 
 function writeFile(data) {

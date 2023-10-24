@@ -38,7 +38,7 @@
  readme
  ```
 
- from any directory. You will be asked for the output directory. It starts at one level up from the root of where you put this project, and you can navigate up or down as you like. 
+ from any directory. You will be asked for the output directory. It starts at one level up from the directory you are currently running the readme command from. You may navigate up and down as you like. 
 
   ### Deployed Link
   Not deployed
