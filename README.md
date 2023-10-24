@@ -4,7 +4,7 @@
   ## Description  ✏️
   
   This code will prompt the user on the usual readme sections and allow them to generate a readme.md for their project with emojis, TOC and proper formatting. Mulitple screenshots are supported. Screenshots must be located in the /assets/images folder of the project. Output for the README.md is chosed using inquirer-select-directory.
-  
+
   ## Table of Contents 📖
   
   - [Installation](#installation-🛠️)
@@ -33,7 +33,12 @@
   
   ## Usage 📝
   
-  This project will eventually be packaged as an executable, but for now, clone the repo, run "npm i" to install dependencies, and run "node index" from the command line.
+ After you clone the repo and install using "npm i" you will be able to run this CLI using the command
+ ```
+ readme
+ ```
+
+ from any directory. You will be asked for the output directory. It starts at one level up from the root of where you put this project, and you can navigate up or down as you like. 
 
   ### Deployed Link
   Not deployed
