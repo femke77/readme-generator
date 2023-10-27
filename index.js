@@ -69,17 +69,18 @@ const questions = [
       "Provide credits to collaborators and/or references to third-party integrations.",
   },
   {
-    type: "confirm",
-    name: "screenshot",
-    message:
-      "Do you want to add one or more screenshots? Please note that the image files must be located in /assets/images",
-  },
-  {
     type: "filePath",
     name: "from",
     message: "Where you like to output the readme.md file?",
     basePath: "./",
   },
+  {
+    type: "confirm",
+    name: "screenshot",
+    message:
+      "Do you want to add one or more screenshots? Please note that the image files must be located in /assets/images",
+  },
+ 
 ];
 
 async function app() {
@@ -105,6 +106,7 @@ async function app() {
 }
 
 function writeFile(data) {
+
   writeFileSync(`${data.from}/README.md`, generateMarkdown(data, imageArr));
   console.log(`Success! Your file is located in the ${data.from} directory.`);
 }
