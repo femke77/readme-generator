@@ -40,7 +40,7 @@ After you clone the repo and install using "npm i" you will be able to run this 
 readme
 ```
 
-from any directory. You will be asked for the output directory. It starts at the level you are currently running the 'readme' command from. You may navigate up and down as you like.
+from any directory. You will be asked for the output directory. It starts at the level you are currently running the 'readme' command from assuming you would have your terminal open to your project's root directory and also want your README in the root. You may navigate up and down as you like if you need to, however.
 
 ### Deployed Link
 
@@ -57,8 +57,8 @@ Not deployed - CLI only.
 ## Known Issues 🤔
 
 Currently there are only two directories to choose from for where the images are located in your app.
-assets/images
-src/assets/images  
+'assets/images'  or 
+'src/assets/images'  
 
 There is no validation on input yet!
 
@@ -85,4 +85,4 @@ This project uses two npm packages:
 
 ## Questions ❓
 
-If you have any questions about the repo, open an issue or contact me directly at megan.meyers.388@gmail.com.
+If you have any questions about the repo or notice any bugs you want to report, open an issue or contact me directly at megan.meyers.388@gmail.com.

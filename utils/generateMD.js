@@ -101,7 +101,7 @@ ${data.credits}
 
  ## Questions ❓
   
-If you have any questions about the repo, open an issue or contact me directly at ${
+ If you have any questions about the repo or notice any bugs you want to report, open an issue or contact me directly at ${
     data.email
   }. 
   
