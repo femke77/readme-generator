@@ -22,11 +22,11 @@ function renderLicenseSection(license) {
   }
   return "";
 }
-function renderScreenshots(images) {
+function renderScreenshots(images, dir) {
   let html = "";
   if (images.length > 0) {
     images.forEach((img, i) => {
-      html += `![screenshot-${i}](assets/images/${img})\n`;
+      html += `![screenshot-${i}](${dir}/${img})\n`;
     });
     return html;
   } else {
@@ -76,7 +76,7 @@ function generateMarkdown(data, imageArr) {
   ${data.deployed}
 
 ### Screenshots
-${renderScreenshots(imageArr)}
+${renderScreenshots(imageArr, data.dir)}
 
 ${renderLicenseSection(data.license)}
 

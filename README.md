@@ -56,7 +56,9 @@ Not deployed - CLI only.
 
 ## Known Issues 🤔
 
-Currently there is no way to update the path to the screenshots. Currently for the readme to show the screenshots correctly, they must be located in the assets/images directory.
+Currently there are only two directories to choose from for where the images are located in your app.
+assets/images
+src/assets/images  
 
 There is no validation on input yet!
 

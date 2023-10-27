@@ -75,6 +75,12 @@ const questions = [
     basePath: "./",
   },
   {
+    type: "list",
+    name: "dir",
+    message: "Where are the screenshots located?",
+    choices: ["assets/images", "src/assets/images"]
+  },
+  {
     type: "confirm",
     name: "screenshot",
     message:
