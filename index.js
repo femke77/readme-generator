@@ -78,15 +78,36 @@ const questions = [
     type: "list",
     name: "dir",
     message: "Where are the screenshots located?",
-    choices: ["assets/images", "src/assets/images"]
+    choices: ["assets/images", "src/assets/images"],
   },
+  {
+    type: "checkbox",
+    name: "tech",
+    message: "Select all tech badges you wish to appear:",
+    choices: [
+      "NodeJS",
+      "Express.js",
+      "Apollo GraphQL",
+      "MySQL",
+      "Sequelize",
+      "MongoDB",
+      "Firebase",
+      "ChatGPT",
+      "React",
+      "Vite",
+      "MUI",
+      "TailwindCSS",
+      "Jest",
+      "Selenium"
+    ],
+  },
+
   {
     type: "confirm",
     name: "screenshot",
     message:
       "Do you want to add one or more screenshots? Please note that the image files must be located in /assets/images",
   },
- 
 ];
 
 async function app() {
@@ -112,7 +133,6 @@ async function app() {
 }
 
 function writeFile(data) {
-
   writeFileSync(`${data.from}/README.md`, generateMarkdown(data, imageArr));
   console.log(`Success! Your file is located in the ${data.from} directory.`);
 }
