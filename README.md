@@ -12,21 +12,21 @@ You can update this generator as you like to make it work better for you!
 
 ## Table of Contents 📖
 
-- [Installation](#Installation-🛠️)
+- [Installation](#Installation)
 
-- [Usage](#usage-👨‍💻)
+- [Usage](#usage)
 
-* [Issues](#known-issues-🤔)
+* [Issues](#known-issues)
 
-* [Contributing](#how-to-contribute-🤝)
+* [Contributing](#how-to-contribute)
 
-* [Tests](#tests-🧪)
+* [Tests](#tests)
 
-* [Credits](#credits-🏆)
+* [Credits](#credits)
 
-* [Questions](#questions-❓)
+* [Questions](#questions)
 
-## Installation 🛠️
+## Installation
 
 To install necessary dependencies, run the following command:
 
@@ -34,7 +34,7 @@ To install necessary dependencies, run the following command:
 npm i
 ```
 
-## Usage 👨‍💻
+## Usage
 
 After you clone the repo and install using "npm i" you will be able to run this CLI using the command
 
@@ -56,7 +56,7 @@ Not deployed - CLI only.
 
 ![screenshot-2](assets/images/ss3.png)
 
-## Known Issues 🤔
+## Known Issues
 
 Currently there are only two directories to choose from for where the images are located in your app.
 'assets/images'  or 
@@ -64,11 +64,11 @@ Currently there are only two directories to choose from for where the images are
 
 There is no validation on input yet!
 
-## How To Contribute 🤝
+## How To Contribute
 
 Fork the repository and make a pull request with your new code.
 
-## Tests 🧪
+## Tests
 
 To run tests, run the following command:
 
@@ -76,7 +76,7 @@ To run tests, run the following command:
 No tests at this time.
 ```
 
-## Credits 🏆
+## Credits
 
 This project uses two npm packages:
 
@@ -85,6 +85,6 @@ This project uses two npm packages:
 [inquirer-select-directory](https://classic.yarnpkg.com/en/package/inquirer-select-directory)
 
 
-## Questions ❓
+## Questions
 
 If you have any questions about the repo or notice any bugs you want to report, open an issue or contact me directly at megan.meyers.388@gmail.com.
