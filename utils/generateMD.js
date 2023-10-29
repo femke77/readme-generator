@@ -41,6 +41,8 @@ function renderTechBadges(badgeArr) {
       markdown += ` ![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white)`;
     else if (badge === "Selenium")
       markdown += ` ![Selenium](https://img.shields.io/badge/-selenium-%43B02A?style=for-the-badge&logo=selenium&logoColor=white)`;
+    else if (badge === "React Router")
+      markdown += ` ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)`;
   });
   return markdown;
 }

@@ -83,7 +83,7 @@ const questions = [
   {
     type: "checkbox",
     name: "tech",
-    message: "Select all tech badges you wish to appear:",
+    message: "Select all tech badges you wish to appear in the readme:",
     choices: [
       "NodeJS",
       "Express.js",
@@ -94,6 +94,7 @@ const questions = [
       "Firebase",
       "ChatGPT",
       "React",
+      "React Router",
       "Vite",
       "MUI",
       "TailwindCSS",
