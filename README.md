@@ -12,7 +12,7 @@ You can update this generator as you like to make it work better for you!
 
 ## Table of Contents 📖
 
-- [Installation](#Installation)
+- [Installation](#Installation-🛠️)
 
 - [Usage](#usage-👨‍💻)
 
