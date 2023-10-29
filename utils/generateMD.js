@@ -49,14 +49,14 @@ function renderTechBadges(badgeArr) {
 
 function renderLicenseLink(license) {
   if (license !== "None") {
-    return `- [License](#license-📜)\n`;
+    return `- [License](#license)\n`;
   }
   return "";
 }
 
 function renderLicenseSection(license) {
   if (license !== "None") {
-    return `## License 📜 \nThis project is licensed under the ${license} license.`;
+    return `## License\nThis project is licensed under the ${license} license.`;
   }
   return "";
 }
@@ -84,23 +84,23 @@ function generateMarkdown(data, imageArr) {
   
   ## Table of Contents 📖
   
-  - [Installation](#installation-🛠️)
+  - [Installation](#installation)
   
-  - [Usage](#usage-👨‍💻)
+  - [Usage](#usage)
 
   ${renderLicenseLink(data.license)}
 
-  - [Issues](#known-issues-🤔)
+  - [Issues](#known-issues)
 
-  - [Contributing](#how-to-contribute-🤝)
+  - [Contributing](#how-to-contribute)
   
-  - [Tests](#tests-🧪) 
+  - [Tests](#tests) 
 
-  - [Credits](#credits-🏆)
+  - [Credits](#credits)
   
-  - [Questions](#questions-❓)
+  - [Questions](#questions)
   
-  ## Installation 🛠️
+  ## Installation 
   
   To install necessary dependencies, run the following command:
   
@@ -108,7 +108,7 @@ function generateMarkdown(data, imageArr) {
   ${data.installation}
   \`\`\`
   
-  ## Usage 👨‍💻
+  ## Usage 
   
   ${data.usage}
 
@@ -120,14 +120,14 @@ ${renderScreenshots(imageArr, data.dir)}
 
 ${renderLicenseSection(data.license)}
 
-## Known Issues 🤔
+## Known Issues 
 ${data.issues}
 
-## How To Contribute 🤝
+## How To Contribute 
   
 ${data.contributing}
   
-## Tests 🧪
+## Tests 
   
 To run tests, run the following command:
   
@@ -136,10 +136,10 @@ To run tests, run the following command:
   \`\`\`
 
 
-## Credits 🏆
+## Credits 
 ${data.credits}
 
- ## Questions ❓
+ ## Questions 
   
  If you have any questions about the repo or notice any bugs you want to report, open an issue or contact me directly at ${
    data.email
