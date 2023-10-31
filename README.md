@@ -56,6 +56,8 @@ CLI only.
 
 ![screenshot-2](assets/images/ss3.png)
 
+______________________________________________________________________________________
+
 ## Known Issues
 
 Currently there are only two directories to choose from for where the images are located in your app.

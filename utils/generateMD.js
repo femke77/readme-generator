@@ -96,7 +96,7 @@ function generateMarkdown(data, imageArr) {
   [Tests](#tests) 
 
   [Credits](#credits)
-  
+
   [Questions](#questions)
   
   ## Installation 
@@ -116,6 +116,8 @@ function generateMarkdown(data, imageArr) {
 
 ### Screenshots
 ${renderScreenshots(imageArr, data.dir)}
+
+______________________________________________________________________________________
 
 ${renderLicenseSection(data.license)}
 
