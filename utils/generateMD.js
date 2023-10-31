@@ -84,12 +84,19 @@ function generateMarkdown(data, imageArr) {
   ## Table of Contents 📖
   
   [Installation](#installation)
+
   [Usage](#usage)
+
   ${renderLicenseLink(data.license)}
+
   [Issues](#known-issues)
+
   [Contributing](#how-to-contribute)
+
   [Tests](#tests) 
+
   [Credits](#credits)
+  
   [Questions](#questions)
   
   ## Installation 
