@@ -8,7 +8,7 @@ Now with support for adding tech badges.
 
 This README.md was created using this program, and therefore I have my screenshots in the /assets/images folder.
 
-You can update this generator as you like to make it work better for you!
+You can update this generator as you like to make it work better for you! My personal email is listed as the default for the email question and you will change that and make it yours. 
 
 ## Table of Contents 📖
 
