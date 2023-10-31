@@ -39,6 +39,7 @@ const questions = [
     type: "input",
     name: "usage",
     message: "Provide comprehensive usage instructions.",
+    default: "Clone the repository, run the install command and then 'npm start'. Then navigate to the localhost port."
   },
   {
     type: "input",
