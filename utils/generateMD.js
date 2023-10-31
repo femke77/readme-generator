@@ -10,7 +10,6 @@ function renderLicenseBadge(license) {
 }
 
 function renderTechBadges(badgeArr) {
-  console.log(badgeArr);
   let markdown = ``;
   badgeArr.forEach((badge) => {
     if (badge === "Express.js")
@@ -84,21 +83,14 @@ function generateMarkdown(data, imageArr) {
   
   ## Table of Contents 📖
   
-  - [Installation](#installation)
-  
-  - [Usage](#usage)
-
+  [Installation](#installation)
+  [Usage](#usage)
   ${renderLicenseLink(data.license)}
-
-  - [Issues](#known-issues)
-
-  - [Contributing](#how-to-contribute)
-  
-  - [Tests](#tests) 
-
-  - [Credits](#credits)
-  
-  - [Questions](#questions)
+  [Issues](#known-issues)
+  [Contributing](#how-to-contribute)
+  [Tests](#tests) 
+  [Credits](#credits)
+  [Questions](#questions)
   
   ## Installation 
   
