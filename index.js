@@ -76,12 +76,7 @@ const questions = [
     message: "Where you like to output the readme.md file?",
     basePath: "./",
   },
-  {
-    type: "list",
-    name: "dir",
-    message: "Where are the screenshots located?",
-    choices: ["assets/images", "src/assets/images"],
-  },
+  
   {
     type: "checkbox",
     name: "tech",
@@ -114,7 +109,17 @@ const questions = [
 
 async function app() {
   let answers = await prompt(questions);
+
   if (answers.screenshot) {
+    const {dir} = await prompt([
+      {
+        type: "list",
+        name: "dir",
+        message: "Where are the screenshots located?",
+        choices: ["assets/images", "src/assets/images"],
+      },
+    ])
+    answers.dir = dir
     do {
       answer = await prompt([
         {
@@ -139,3 +144,7 @@ function writeFile(data) {
   console.log(`Success! Your file is located in the ${data.from} directory.`);
 }
 app();
+
+
+
+  // TODO: do not ask about location of screenshots until user says they do want screenshots.
