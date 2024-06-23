@@ -48,7 +48,7 @@ function renderTechBadges(badgeArr) {
 
 function renderLicenseLink(license) {
   if (license !== "None") {
-    return `- [License](#license)\n`;
+    return `[License](#license)\n`;
   }
   return "";
 }
