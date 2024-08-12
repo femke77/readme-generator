@@ -42,6 +42,10 @@ function renderTechBadges(badgeArr) {
       markdown += ` ![Selenium](https://img.shields.io/badge/-selenium-%43B02A?style=for-the-badge&logo=selenium&logoColor=white)`;
     else if (badge === "React Router")
       markdown += ` ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)`;
+    else if (badge === "Cypress")
+      markdown += ` ![cypress](https://img.shields.io/badge/-cypress-%23E5E5E5?style=for-the-badge&logo=cypress&logoColor=058a5e)`;
+    else if (badge === "TypeScript")
+      markdown += ` ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)`;
   });
   return markdown;
 }
@@ -60,12 +64,12 @@ function renderLicenseSection(license) {
   return "";
 }
 function renderScreenshots(images, dir) {
-  let html = "";
+  let md = "";
   if (images.length > 0) {
     images.forEach((img, i) => {
-      html += `![screenshot-${i}](${dir}/${img})\n`;
+      md += `![screenshot-${i}](${dir}/${img})\n`;
     });
-    return html;
+    return md;
   } else {
     return "No screenshots yet.";
   }

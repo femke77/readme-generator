@@ -39,7 +39,8 @@ const questions = [
     type: "input",
     name: "usage",
     message: "Provide comprehensive usage instructions.",
-    default: "Clone the repository, run the install command and then 'npm start'. Then navigate to the localhost port."
+    default:
+      "Clone the repository, run the install command and then 'npm start'. Then navigate to the localhost port.",
   },
   {
     type: "input",
@@ -51,7 +52,7 @@ const questions = [
     type: "input",
     name: "email",
     message: "What is your email?",
-    default: "megan.meyers.388@gmail.com"
+    default: "megan.meyers.388@gmail.com",
   },
 
   {
@@ -76,7 +77,7 @@ const questions = [
     message: "Where you like to output the readme.md file?",
     basePath: "./",
   },
-  
+
   {
     type: "checkbox",
     name: "tech",
@@ -96,14 +97,14 @@ const questions = [
       "MUI",
       "TailwindCSS",
       "Jest",
-      "Selenium"
+      "Selenium",
+      "Cypress",
     ],
   },
   {
     type: "confirm",
     name: "screenshot",
-    message:
-      "Do you want to add one or more screenshots?",
+    message: "Do you want to add one or more screenshots?",
   },
 ];
 
@@ -111,15 +112,15 @@ async function app() {
   let answers = await prompt(questions);
 
   if (answers.screenshot) {
-    const {dir} = await prompt([
+    const { dir } = await prompt([
       {
         type: "list",
         name: "dir",
         message: "Where are the screenshots located?",
         choices: ["assets/images", "src/assets/images"],
       },
-    ])
-    answers.dir = dir
+    ]);
+    answers.dir = dir;
     do {
       answer = await prompt([
         {
@@ -145,6 +146,4 @@ function writeFile(data) {
 }
 app();
 
-
-
-  // TODO: do not ask about location of screenshots until user says they do want screenshots.
+// TODO: do not ask about location of screenshots until user says they do want screenshots.
