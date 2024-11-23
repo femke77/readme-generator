@@ -46,6 +46,28 @@ function renderTechBadges(badgeArr) {
       markdown += ` ![cypress](https://img.shields.io/badge/-cypress-%23E5E5E5?style=for-the-badge&logo=cypress&logoColor=058a5e)`;
     else if (badge === "TypeScript")
       markdown += ` ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)`;
+    else if (badge === "React Query")
+      markdown += ` ![React Query](https://img.shields.io/badge/-React%20Query-FF4154?style=for-the-badge&logo=react%20query&logoColor=white)`;
+    else if (badge === "Redux Toolkit")
+      markdown += ` ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)`;
+    else if (badge === "Zod")
+      markdown += ` ![Zod](https://img.shields.io/badge/zod-%233068b7.svg?style=for-the-badge&logo=zod&logoColor=white)`;
+    else if (badge === "Vitest")
+      markdown += ` ![Vitest](https://img.shields.io/badge/-Vitest-252529?style=for-the-badge&logo=vitest&logoColor=FCC72B)`;
+    else if (badge === "PostgreSQL")
+      markdown += ` ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)`;
+    else if (badge === "Docker")
+      markdown += ` ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)`;
+    else if (badge === "Prisma")
+      markdown += ` ![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white)`;
+    else if (badge === "Render")
+      markdown += ` ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white)`;
+    else if (badge === "Github Actions")
+      markdown += ` ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)`;
+    else if (badge === "Nestjs")
+      markdown += ` ![NestJS](https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white)`;
+    else if (badge === "Redis")
+      markdown += ` ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)`;
   });
   return markdown;
 }
