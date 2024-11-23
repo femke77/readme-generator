@@ -68,6 +68,22 @@ function renderTechBadges(badgeArr) {
       markdown += ` ![NestJS](https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white)`;
     else if (badge === "Redis")
       markdown += ` ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)`;
+    else if (badge === "CircleCI")
+      markdown += ` ![CircleCI](https://img.shields.io/badge/circle%20ci-%23161616.svg?style=for-the-badge&logo=circleci&logoColor=white)`;
+    else if (badge === "Bootstrap")
+      markdown += ` ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)`;
+    else if (badge === "Green Sock")
+      markdown += ` ![Green Sock](https://img.shields.io/badge/green%20sock-88CE02?style=for-the-badge&logo=greensock&logoColor=white)`;
+    else if (badge === "Handlebars")
+      markdown += ` ![Handlebars](https://img.shields.io/badge/Handlebars-%23000000?style=for-the-badge&logo=Handlebars.js&logoColor=white)`;
+    else if (badge === "JWT")
+      markdown += ` ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)`;
+    else if (badge === "Heroku")
+      markdown += ` ![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)`;
+    else if (badge === "Swagger")
+      markdown += ` ![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white)`;
+    else if (badge === "Tampermonkey")
+      markdown += ` ![Tampermonkey](https://img.shields.io/badge/tampermonkey-%2300485B.svg?style=for-the-badge&logo=tampermonkey&logoColor=white)`;
   });
   return markdown;
 }

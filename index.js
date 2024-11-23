@@ -111,6 +111,15 @@ const questions = [
       "Github Actions",
       "NestJS",
       "Redis",
+      "CircleCI",
+      "Bootstrap",
+      "Green Sock",
+      "Handlebars",
+      "JWT",
+      "Heroku",
+      "Swagger",
+      "Tampermonkey",
+ 
 
     ],
   },
