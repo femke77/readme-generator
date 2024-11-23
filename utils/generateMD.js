@@ -84,6 +84,16 @@ function renderTechBadges(badgeArr) {
       markdown += ` ![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white)`;
     else if (badge === "Tampermonkey")
       markdown += ` ![Tampermonkey](https://img.shields.io/badge/tampermonkey-%2300485B.svg?style=for-the-badge&logo=tampermonkey&logoColor=white)`;
+    else if (badge === "OpenAI")
+      markdown += ` ![OpenAI](https://a11ybadges.com/badge?logo=openai)`;
+    else if (badge === "Netlify")
+      markdown += ` ![Netlify](https://a11ybadges.com/badge?logo=netlify)`;
+    else if (badge === "JQuery")
+      markdown += ` ![jQuery](https://a11ybadges.com/badge?logo=jquery)`;
+    else if (badge === "Testing Library")
+      markdown += ` ![Testing Library](https://a11ybadges.com/badge?logo=testinglibrary)`;
+    else if (badge === "Socket.io")
+      markdown += ` ![Socket.io](https://a11ybadges.com/badge?logo=socketdotio)`;
   });
   return markdown;
 }

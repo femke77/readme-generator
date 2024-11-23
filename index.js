@@ -119,6 +119,13 @@ const questions = [
       "Heroku",
       "Swagger",
       "Tampermonkey",
+      "OpenAI",
+      "Netlify",
+      "JQuery",
+      "Testing Library",
+      "Socket.io",
+
+
  
 
     ],
