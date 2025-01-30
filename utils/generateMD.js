@@ -87,7 +87,7 @@ function renderTechBadges(badgeArr) {
     else if (badge === "OpenAI")
       markdown += ` ![OpenAI](https://a11ybadges.com/badge?logo=openai)`;
     else if (badge === "Netlify")
-      markdown += ` ![Netlify](https://a11ybadges.com/badge?logo=netlify)`;
+      markdown += ` ![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)`;
     else if (badge === "JQuery")
       markdown += ` ![jQuery](https://a11ybadges.com/badge?logo=jquery)`;
     else if (badge === "Testing Library")
@@ -98,6 +98,8 @@ function renderTechBadges(badgeArr) {
       markdown += ` ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)`;
     else if (badge === "Headless UI")
       markdown += ` ![HeadlessUI](https://img.shields.io/badge/Headless%20UI-66E3FF.svg?style=for-the-badge&logo=Headless-UI&logoColor=black)`;
+    else if (badge === "Stripe")
+      markdown += ` ![Stripe](https://img.shields.io/badge/Stripe-5469d4?style=for-the-badge&logo=stripe&logoColor=ffffff)`;
   });
 
   return markdown;
@@ -120,7 +122,7 @@ function renderScreenshots(images, dir) {
   let md = "";
   if (images.length > 0) {
     images.forEach((img, i) => {
-      md += `![screenshot-${i}](${dir}/${img})\n`;
+      md += `![screenshot-${i}](${dir}/${img})\n\n`;
     });
     return md;
   } else {

@@ -126,6 +126,7 @@ const questions = [
       "Testing Library",
       "Socket.io",
       "Headless UI",
+      "Stripe",
 
 
  
